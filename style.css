@@ -1,0 +1,82 @@
+
+/*remember that you can classify css elements
+by layouts, by style, and text etc. so it can be easier
+to edit and read code*/
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: "Open Sans", "Lato", "Roboto";
+}
+
+
+
+.header   {
+    display: flex;
+    width: 100%;
+    height: 50px;
+}
+
+.secondary   {
+    width: 100%;
+    height: 250px;
+    background-color: #3dbd9c;
+} 
+
+.main   {
+    background-color: #ededed;
+    width:100%;
+    height:300px;
+}
+
+
+.logo  { border: solid 2px yellow;
+}
+
+
+.header-links    { 
+    border: solid 2px yellow;
+    display: flex;
+}
+
+ul  { 
+    display:flex
+    
+}  /*this is for all list*/
+
+
+
+button     {
+    padding: 5px 10px;
+}
+
+
+
+.columns {
+    display:flex;
+    border: solid 2px yellow;
+    height: 300px;
+    width: 1220px;
+    }/*this is parent of columns*/
+
+
+.column-1 {border: solid 2px yellow;}
+
+.column-2 {border: solid 2px yellow;}
+
+.column-3 {border: solid 2px yellow;}
+
+.column-4 {border: solid 2px yellow;}
+
+
+.footer{ 
+    height: 50px;
+    width: auto;
+    border: solid 2px yellow;}
+
+.footer-links{border: solid 2px yellow;}
+
+p {
+     border: solid 2px yellow;
+    } 
+/*this is for all paragraphs*/
+
